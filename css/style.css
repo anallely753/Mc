@@ -17,8 +17,161 @@ header{
 
 .menunav li a{
   font-size: .8em;
+    color: black;
 }
 
 .menunavmobile li a{
   font-size: 1.2em;
+
+}
+
+nav{
+  background-image: linear-gradient(lightgray, white)
+}
+
+.sidenav-trigger i{
+  color: black;
+}
+
+/*FOOTER*/
+body{
+  font-size: 100%;
+  display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+ main {
+    flex: 1 0 auto;
+  }
+      
+
+.page-footer{
+  background-color: white;
+    border-top-style: solid;
+  border-color: black;
+}
+
+.page-footer .footer-copyright{
+  font-size: .65em;
+  background-color: black;
+}
+
+.menufooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Oswald', sans-serif;
+}
+
+.menufooter a h5{
+  color: black;
+  font-size: .8em;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/*MAIN INDEX*/
+h3{
+   font-family: 'Oswald', sans-serif;
+   font-size: 1.8em;
+   margin: 0;
+   padding-top: .5em;
+   font-weight: bold;
+}
+
+.container-cards{
+  padding: 0 5%;
+}
+
+.container-cards h4{
+   font-family: 'Oswald', sans-serif;
+   font-size: 1.5em;
+   margin-top: 0;
+   margin-bottom: .3em;
+}
+
+.container-cards p{
+   font-size: .8em;
+   margin: 0;
+}
+
+.redes{
+  height: 22em;
+  border-style: solid;
+  border-color: gray;
+  border-width: 0em;
+  margin: 0em;
+  overflow: scroll;
+}
+
+/* main MENU*/
+
+.cardMenu{
+  background-image: url(../img/menu-banner.jpg);
+  height: 30vh;
+  background-size: cover;
+}
+
+h4{
+   font-family: 'Oswald', sans-serif;
+   font-size: 1.2em;
+  
+}
+
+.card-reveal{
+  text-align: justify;
+}
+
+.card-reveal h5{
+  font-family: 'Oswald', sans-serif; 
+}
+
+.card p{
+  font-size: 1em;
+}
+
+.tabsmenu li h5{
+  color: black;
+  font-size: 1.2em;
+  font-family: 'Oswald', sans-serif; 
+}
+
+/*index N*/
+.bannerN{
+  background-image: url(../img/nosotros-banner.jpg);
+  height: 40vh;
+  background-size: cover;
+  margin: 0;
+}
+
+h5{
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Oswald', sans-serif; 
+}
+
+.collapsible{
+  text-align: center;
+}
+
+.collapsible p{
+  font-size: .8em;
+}
+
+.justify{
+  text-align: justify;
+}
+
+/*index C*/
+.bannerC{
+  background-image: url(../img/contacto-banner.jpg);
+  height: 40vh;
+  background-size: cover;
+  margin: 0;
+}
+
+form{
+  border-style: solid;
+  padding: 1em;
 }
