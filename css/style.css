@@ -1,0 +1,24 @@
+/*HEADER*/
+.nav-wrapper a img{
+  height: 100%;
+  width: auto;  
+}
+
+.nav-wrapper .brand-logo{
+  border-style: solid;
+  border-color: yellow;
+  border-width: 3px;
+  height: 100%;
+}
+
+header{
+  font-family: 'Oswald', sans-serif;
+}
+
+.menunav li a{
+  font-size: .8em;
+}
+
+.menunavmobile li a{
+  font-size: 1.2em;
+}
